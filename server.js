@@ -75,7 +75,6 @@ app.put('/students/:id', async (req, res) => {
     res.status(400).json({ message: err.message });
   }
 });
-
 // Delete student
 app.delete('/students/:id', async (req, res) => {
   try {
